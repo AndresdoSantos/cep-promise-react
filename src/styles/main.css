@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.container h3 {
+  font-size: 25px;
+  color: #333;
+}
+
+.container h3 .color-one {
+  color: #009c3b;
+}
+
+.container h3 .color-two {
+  color: #ffdf00;
+}
+
+.container h3 .color-tree {
+  color: #002776;
+}
+
+.container .input {
+  height: 40px;
+  width: 300px;
+
+  padding: 0 10px;
+
+  background: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #f3f3f4;
+
+  margin: 20px 0;
+
+  cursor: pointer;
+}
+
+.container input:focus {
+  border: 1px solid blue;
+}
+
+.container .button {
+  width: 300px;
+  height: 40px;
+
+  border: none;
+  background-color: #ffdf00;
+
+  border-radius: 5px;
+}
+
+.container .button p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f3f3f4;
+}
+
+.container .button:hover {
+  transition: background ease-out 500ms;
+
+  cursor: pointer;
+  background: linear-gradient(to right, #009c3b, #ffdf00);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  flex-direction: column;
+
+  width: 300px;
+}
+
+.content {
+  display: block;
+  width: 400px;
+
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+
+.content li {
+  list-style: none;
+}
+
+.content li span {
+  display: flex;
+  margin: 10px 0;
+}
+
+.content li span h4 {
+  width: 80px;
+  margin-right: 10px;
+}
